@@ -42,7 +42,7 @@ module.exports			= function(io) {
 				}); // end router get
 
 
-		var socketList = {};
+		var socketList = {}; // socket liste
 		var playersList = {};
 		var foodList = [];
 
