@@ -1,0 +1,7 @@
+extends index
+block content
+	#displayBox3
+		ul
+			each user, i in scoreUsers
+				li#student_list_item
+					a(href='#') #{user.pseudonyme} 

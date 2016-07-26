@@ -1,0 +1,11 @@
+
+git init
+git remote add origin pi@78.205.114.104:games.git
+git add *
+git commit -a
+git push origin master
+
+# création d'une branche
+git branch dev
+git commit -a
+git push origin dev

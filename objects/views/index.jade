@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	.center
+	#displayBox1
+	#logArea
+		form#guestForm
+				input#name(type='text', name='name', placeholder='Username')       
+				input#sub(type='submit', value='Play')
+		#displayBox2
+	#gameArea
+		#canvasArea 
+			canvas#cv(width='750' , height='650')
+		#displayArea
+			#connArea
+				//- #chatArea 
+				//- 	#chatText
+				//- 		div chat
+				//- 	form#chatForm
+				//- 		input(type='text', name='name')
+				//- 		input(type='submit', value='Envoyer')

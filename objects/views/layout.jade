@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/foundation.css')
+		link(rel='stylesheet', href='/stylesheets/app.css')
+	body
+		block content
+		//- script(src="http://cdn.socket.io/socket.io-1.4.5.js")
+		script(src='/javascripts/vendor/socketio.js')
+		script(src='/javascripts/vendor/jquery.js')
+		script(src="/javascripts/vendor/foundation.js")
+		script(src="/javascripts/vendor/what-input.js")
+		script(src='/javascripts/app.js')
+	

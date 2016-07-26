@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	.center
+	#gameArea
+		canvas#cv(width='809' , height='555')
+	#displayArea
+		#displayBox2
+		#logArea
+			form#guestForm
+				input#name(type='text', name='name', placeholder='Username')       
+				input#sub(type='submit', value='Play')
+		#displayBox3
+			ul Top score
+				each user, i in scoreUsers
+					li#userSocre
+						a #{user.pseudonyme} score : #{user.score}

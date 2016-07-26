@@ -1,0 +1,210 @@
+ /*http://game.zylom.com/*/
+
+.center{
+	margin: 0 ;
+}
+body{
+	background-color: #2a2a2a;
+	color: #F2EBF2;
+
+	/*background-image: url();*/
+}
+h2{
+	/*border: 1px solid black;*/
+	padding: 0;
+	margin: 0;
+}
+#gameArea{
+	/*display: none;*/
+	position: relative;
+	float: left;
+	width: 809px;
+	height: 555px;
+	margin: 5px;
+	color: #F2EBF2;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/*z-index: 1;*/
+	/*border: 2px solid  #FFFC4E;*/
+	background-color: rgba(0,0,0,0.4);
+}
+#displayArea{
+	position: relative;
+	width: 400px;
+	height: 555px;
+	margin: 15px;
+	margin-left: 822px;
+	color: #F2EBF2;
+	/*border: 2px solid green;*/
+}
+#cv{
+	width: 809px;
+	height: 555px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	border-radius: 10px;
+}
+
+#logArea{
+	/*border: 2px solid black;*/
+	display: inline-block;
+	width: 399px;
+	height: 170px;
+	margin: 2px;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/*float: left;*/
+}
+#guestForm{
+	width: 399px;
+	height: 170px;
+	margin: 0px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color:white;
+	font-weight: bold;
+}
+#guestForm input[type='text'],#signForm input[type='text']{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 300px;
+	height: 35px;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+#guestForm input[type='submit'],#signForm input[type='submit']{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 300px;
+	height: 35px;
+	margin-left: 40px;
+	margin-top: 10px;
+	font-weight: bold;
+	border: none;
+	background-color: #2ECC71;
+}
+
+#canvasArea{
+	float: left;
+	/*border: 2px solid black;*/
+	width: 750px;
+	height: 650px;
+	margin: 3px;
+	border-radius: 10px;
+	/*background-color: #F2EBF2;*/
+	/*display: none;*/
+}
+
+#connArea{
+	/*border: 2px solid red;*/
+	width: 190px;
+	height: 200px;
+	color: #F2EBF2;
+
+}
+#chatArea{
+	/*border-radius: 10px;*/
+	/*margin-left: 10px;*/
+	/*background-color: #F2EBF2;*/
+	/*border: 2px solid blue;*/
+	width: 190px;
+	height: 442px;
+	bottom: 0px;
+	color: #F2EBF2;
+
+}
+#chatText{
+	overflow-y: scroll;
+	width: 297px;
+	height: 100px;
+}
+#chatText>p{
+	margin-bottom: 10px;
+}
+#chatForm{
+	margin-top: 0px;
+}
+#displayBox1{
+	display: none;
+	position: absolute;
+	width: 500px;
+	height: 220px;
+	margin: 80px 35% 20px 35%;
+	padding: 2px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color:#F2EBF2;
+	font-weight: bold;
+	box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+	text-align: center;
+	z-index: 100;
+}
+#displayBox1 p{
+	color : #7a7a7a;
+}
+#displayBox2{
+	width: 399px;
+	height: 190px;
+	margin: 2px;
+	padding: 0px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color:white;
+	font-weight: bold;
+	box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+}
+#displayBox2 p{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 300px;
+	height: 35px;
+	/*margin-left: 140px;
+	margin-top: 10px;*/
+	font-weight: bold;
+	border: none;
+	text-align: center;
+	padding: 6px;
+	background-color:	rgb(255,165,0);
+}
+#displayBox2 h4{
+	text-align: center;
+}
+#displayBox3{
+	width: 399px;
+	height: 190px;
+	margin: 0px;
+	padding: 2px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color:white;
+	font-weight: bold;
+	box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+}
